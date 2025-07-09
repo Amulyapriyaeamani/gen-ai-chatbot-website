@@ -47,29 +47,33 @@ Explore more on [GitHub](https://github.com/Amulyapriyaeamani)
 
 ### 📁 Project Structure
 
-- `hf_chatbot/`: Contains `app.py` and `requirements.txt` for the Hugging Face backend
-- `static_site/`: Frontend with `index.html` embedding the chatbot using `<gradio-app>`
+- `hf_chatbot/` → Backend app for Hugging Face Space  
+  - `app.py` – main Gradio + LangChain chatbot logic  
+  - `requirements.txt` – dependencies (`gradio`, `langchain`, `openai`)
+
+- `static_site/` → Frontend website  
+  - `index.html` – includes `<gradio-app>` iframe  
+  - `styles.css` – basic styling  
+  - `script.js` – optional interactivity
 
 ---
 
 ### Add your OpenAI API key as a secret in Hugging Face Spaces:
 
-1. Go to your Space → **Settings** → **Secrets**
-2. Add the following:
-OPENAI_API_KEY = your_openai_api_key_here
-3. Upload `app.py`, `requirements.txt`, and other necessary files.
-4. The chatbot will auto-launch on build.
+1. Create a new **Gradio (Python)** Space on Hugging Face.
+2. Upload files from `hf_chatbot/`.
+3. Add your OpenAI API key under:
+   - `Settings → Secrets`
+   - Key: `OPENAI_API_KEY`
+   - Value: *your actual API key from https://platform.openai.com*
+4. Upload `app.py`, `requirements.txt`, and other necessary files.
+5. The chatbot will auto-launch on build.
 
 > 🛠️ **Note:** Without a valid OpenAI API key, the app will show an error or fail to respond.
 ## 🚀 Live Demo
 👉 [Try on website](amulyaaichatbot.ccbp.tech)
 👉 [Try Riya on Hugging Face](https://amulyaeamani-mygenaichatbot.hf.space)
 > ⚠️ Currently shows error due to missing OpenAI API key.
-
-## 📁 Files
-
-- `app.py` – Main app logic  
-- `requirements.txt` – Python dependencies
 
 ## 🛡️ Notes
 
