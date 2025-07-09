@@ -2,8 +2,6 @@
 
 Riya is a youthful, dynamic, and intelligent AI assistant built using cutting-edge generative AI tools. Developed during a Gen AI Workshop, Riya demonstrates the power of modern NLP and multimodal frameworks to create interactive and human-like AI assistants.
 
-![Riya AI Banner](https://herobot.app/wp-content/uploads/2022/11/AI-bot-1.jpg)
-
 ## 🔥 Features
 
 - 💬 Conversational chatbot (Gradio Interface)
@@ -11,10 +9,6 @@ Riya is a youthful, dynamic, and intelligent AI assistant built using cutting-ed
 - 🌐 Hosted on Hugging Face Spaces
 - ✨ User-friendly UI with branding and responsive layout
 - 🎓 Built with practical exposure to GenAI tools
-
-## 🚀 Live Demo
-
-👉 [Try Riya on Hugging Face](https://amulyaeamani-mygenaichatbot.hf.space)
 
 ## 🛠️ Tech Stack
 
@@ -41,30 +35,44 @@ Riya is a youthful, dynamic, and intelligent AI assistant built using cutting-ed
 
 👋 Hi, I'm **Amulya**, and I built this project as part of a Gen AI workshop. Riya represents my first step into the world of AI assistants and GenAI applications.
 
-Connect with me on [LinkedIn](https://linkedin.com/in/your-profile)  
-Explore more on [GitHub](https://github.com/your-username)
+Connect with me on [LinkedIn](https://linkedin.com/in/amulyapriyaeamani)  
+Explore more on [GitHub](https://github.com/Amulyapriyaeamani)
 
 ## ❤️ Acknowledgments
 
 - Built during **NxtWave GenAI Workshop**
 - Special thanks to the mentors and workshop organizers
-- # gen-ai-chatbot-website
-# 🤖 Amulya's AI Chatbot (LangChain + Gradio)
 
-A simple AI chatbot built using LangChain and Gradio, deployed on Hugging Face Spaces.
+## 🔧 Setup Instructions
 
+### Add your OpenAI API key as a secret in Hugging Face Spaces:
+
+1. Go to your Space → **Settings** → **Secrets**
+2. Add the following:
+OPENAI_API_KEY = your_openai_api_key_here
+3. Upload `app.py`, `requirements.txt`, and other necessary files.
+4. The chatbot will auto-launch on build.
+
+> 🛠️ **Note:** Without a valid OpenAI API key, the app will show an error or fail to respond.
 ## 🚀 Live Demo
-🔗 [amulyaeamani-mygenaichatbot.hf.space](https://amulyaeamani-mygenaichatbot.hf.space)
-
+amulyaaichatbot.ccbp.tech
+👉 [Try Riya on Hugging Face](https://amulyaeamani-mygenaichatbot.hf.space)
 > ⚠️ Currently shows error due to missing OpenAI API key.
 
-## 📦 Tech Stack
-- Python
-- Gradio
-- LangChain
-- Hugging Face Spaces
+## 📁 Files
 
-## 🛠️ Setup (Local)
-```bash
-pip install -r requirements.txt
-python app.py
+- `app.py` – Main app logic  
+- `requirements.txt` – Python dependencies
+
+## 🛡️ Notes
+
+- Do **not** hardcode API keys in your code.
+- Always use secret variables in Spaces or `.env` files for safety.
+
+### Embed in Website:
+
+```html
+<gradio-app src="https://your-space-url.hf.space"></gradio-app>
+
+
+  
