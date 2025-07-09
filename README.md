@@ -45,6 +45,13 @@ Explore more on [GitHub](https://github.com/Amulyapriyaeamani)
 
 ## 🔧 Setup Instructions
 
+### 📁 Project Structure
+
+- `hf_chatbot/`: Contains `app.py` and `requirements.txt` for the Hugging Face backend
+- `static_site/`: Frontend with `index.html` embedding the chatbot using `<gradio-app>`
+
+---
+
 ### Add your OpenAI API key as a secret in Hugging Face Spaces:
 
 1. Go to your Space → **Settings** → **Secrets**
