@@ -55,7 +55,7 @@ OPENAI_API_KEY = your_openai_api_key_here
 
 > 🛠️ **Note:** Without a valid OpenAI API key, the app will show an error or fail to respond.
 ## 🚀 Live Demo
-amulyaaichatbot.ccbp.tech
+👉 [Try on website](amulyaaichatbot.ccbp.tech)
 👉 [Try Riya on Hugging Face](https://amulyaeamani-mygenaichatbot.hf.space)
 > ⚠️ Currently shows error due to missing OpenAI API key.
 
